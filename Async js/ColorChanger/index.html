@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<style>
+
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	#start, 
+	#stop{
+      cursor: pointer;
+	}
+
+	body{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		width: 100vw;
+
+	}
+
+	.container{
+		padding: 50px;
+		border-radius: 15px;
+		background-color: rgba(212, 248, 234, 0.534) ;
+		width: 50%;
+		border: 1px solid black;
+
+	}
+</style>				
+<body>
+	<div class="container">
+	   <h1>BG Color Changer</h1>
+	   <button id="start">Start</button>
+	   <button id="stop">Stop</button>
+	</div>
+</body>
+<script src="script.js"></script>
+</html>
